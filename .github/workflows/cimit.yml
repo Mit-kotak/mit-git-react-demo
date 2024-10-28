@@ -20,15 +20,15 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd my-app  # Navigate to your Vite React app directory
+        cd mit-git-react-demo  # Navigate to your Vite React app directory
         npm install
 
     - name: Run tests
       run: |
-        cd my-app
+        cd mit-git-react-demo
         npm test -- --watchAll=false
 
     - name: Build the project
       run: |
-        cd my-app
+        cd mit-git-react-demo
         npm run build
